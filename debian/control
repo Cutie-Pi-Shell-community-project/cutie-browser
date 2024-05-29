@@ -10,7 +10,7 @@ Build-Depends: pkg-kde-tools,
                qt6-base-dev,
                pkg-config,
                qt6-declarative-dev,
-               libqt6dbus6,
+               libqt6dbus6t64,
                qt6-tools-dev-tools,
                qt6-tools-dev,
                qt6-tools-private-dev,
@@ -24,3 +24,4 @@ Multi-Arch: foreign
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}, qml6-module-cutie, qml6-module-qtwebengine, qml6-module-qtwebengine-controlsdelegates
 Description: This package contains Cutie's default browser.
+
